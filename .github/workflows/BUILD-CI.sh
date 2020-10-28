@@ -46,3 +46,5 @@ cmake -DVENDOR=cypress -DBOARD=CY8CKIT_064S0S2_4343W -DCOMPILER=arm-gcc -DBUILD_
     -S ../../../../.. -B build
 
 cmake --build build
+
+ls -l build/*.hex
