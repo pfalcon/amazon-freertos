@@ -28,4 +28,5 @@ jobs:
         pwd
         ls -l
         git describe
+        .github/workflows/BUILD-CI.sh
 
