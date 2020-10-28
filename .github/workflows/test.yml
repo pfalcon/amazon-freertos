@@ -23,3 +23,9 @@ jobs:
       run: |
         echo $PATH
         arm-none-eabi-gcc --version
+    - name: Run build
+      run: |
+        pwd
+        ls -l
+        git describe
+
