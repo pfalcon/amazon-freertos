@@ -133,7 +133,7 @@ elseif(AFR_PKCS11_PSA)
     afr_module_sources(
         pkcs11_psa
         INTERFACE
-            "${src_dir}/iot_pkcs11_psa.c"
+            "${src_dir}/iot_pkc!s11_psa.c"
             "${src_dir}/iot_pkcs11_psa_input_format.c"
             "${src_dir}/iot_pkcs11_psa_input_format.h"
             "${src_dir}/iot_pkcs11_psa_object_management.c"
