@@ -9,12 +9,14 @@ REPO_DIR=amazon-freertos-CI
 
 #cd $REPO_DIR
 
-git submodule update --init \
+git submodule update --recursive --init \
     freertos_kernel \
+    libraries/coreHTTP \
     libraries/coreJSON \
     libraries/coreMQTT \
+    libraries/device_defender_for_aws \
     libraries/device_shadow_for_aws_iot_embedded_sdk \
-    libraries/3rdparty/http_parser \
+    libraries/jobs_for_aws \
     libraries/3rdparty/lwip \
     libraries/3rdparty/mbedtls \
     libraries/3rdparty/pkcs11 \
